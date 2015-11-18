@@ -66,3 +66,15 @@ If you have feedback of any kind (you know, to tell us how awesome we are), we'r
 Because Internet. Also, because we're not actually Javascript developers. With
 that said, we'd love to take pull requests from all you amazing people out
 there.
+
+## Running this app
+
+copy `.env-sample` to `.env`
+
+update the env variables in `.env`
+
+run the app
+
+~~~sh
+env $(cat .env | xargs) node app.js
+~~~
